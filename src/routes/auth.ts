@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { signUp, login, me }  from '../controllers/auth';
+import { signUp, login, me }  from '../controllers/authController.ts';
 import { errorHandler } from '../errorHandler';
 import authMiddleware from '../middlewares/auth';
 
